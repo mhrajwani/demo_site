@@ -3,7 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-
 .header{
     width:100;
     height:65px;
@@ -21,13 +20,10 @@
     background-color:rgb(49, 49, 49);
     font-size: 1.2em;
     margin-top:5px;
-    
 }
-
 .pHead:nth-child(2) {
     border-left: 1px solid white;
-  }
-
+}
 .orange{
     color:orangered;
 }
@@ -36,8 +32,7 @@
     height:100vh;
     background-image: url('./images/bg.jpg');
     background-size: cover;
-    text-align: center;
-    
+    text-align: center;  
 }
 #images{
     margin-left: auto;
@@ -47,7 +42,6 @@
     animation-name: moveInUp;
     animation-duration: 3s;
 }
-
 .headingPrimary{
     color:white;
     text-transform: uppercase;
@@ -59,14 +53,12 @@
     animation-name: moveInLeft;
     animation-duration: 3s;
 }
-
 .p2{
     display:block;
     padding:30px;
     animation-name: moveInRight;
     animation-duration: 3s;
 }
-
 .btn:link,
 .btn:visited{
     text-transform: uppercase;
@@ -76,31 +68,24 @@
     font-size: 1.5em;
     color:white;
 }
-
 .btn1{
     border: 2px solid white;
 }
-
 .btn1:hover{
     color:orangered;
     border: 2px solid orangered;
 }
-
 .btn2{
     background-color: orangered;
     border: 2px solid orangered;
 }
-
 .btn2:hover{
     color:gray;
 }
-
-
 .container-fluid{
     width: 90%;
     text-align: center;
 }
-
 .myColumns{
     border: 1px solid #989898;
     background-color: #f5f5f0;
@@ -111,14 +96,10 @@
 .myColumns:hover{
    background-color: rgb(49, 49, 49);
    color:white;
-   
 }
-
-
 h4{
     color:orangered;
 }
-
 .fas{
     padding-top: 5px;
 }
@@ -126,10 +107,29 @@ i.fas {
     padding:15px;
     border: 3px solid orangered;
     border-radius: 50%;
-    
-  }
-
-  .footer{
+}
+.left{
+      padding-top: 20px;
+      text-align: left;
+}
+hr{
+    width: 100%; 
+    color: black; height: 1px; 
+    background-color:black;
+}
+.bottom{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 2em;
+    vertical-align: middle;
+}
+.bottom p{
+    line-height: 100px;
+}
+.footer{
     width: 25%;
     margin: 5px auto;
     text-align: center;
@@ -180,8 +180,7 @@ i.fas {
 }
 .pHead:nth-child(2) {
     border-left: 0;
-  }
-
+}
 .p1, .btn:link,.btn:visited{
     font-size: 0.9em;
 }
