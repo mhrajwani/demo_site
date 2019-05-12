@@ -113,7 +113,8 @@
 }
 hr{
     width: 100%; 
-    color: black; height: 1px; 
+    color: black; 
+    height: 1px; 
     background-color:black;
 }
 .bottom{
